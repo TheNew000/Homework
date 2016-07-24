@@ -1,0 +1,24 @@
+<script type="text/javascript">
+    
+    var sum = 0;
+    for (var i = 0; i < 1000; i++) {
+        if (i % 3 === 0 || i % 5 === 0) {
+            sum += i;
+        }
+    }
+
+    
+        var a = 0;
+        var b = 1;
+        var sum = 0;
+        var c;
+        for(var i = 1; i <= 100; i++) {
+            c = b + a;
+            a = b;
+            b = c;
+            if(b % 2 === 0 && b < 4000001) {
+                sum += b;
+            }
+        }
+
+</script>
